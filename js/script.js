@@ -27,16 +27,16 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-	$("#lightgallery").lightGallery(); 
+	$("#lightgallery").lightGallery();
 });
 
 $(document).ready(function(){
      $('.btn-main').mouseover(function(){
-         $('.main h1').addClass('lightUp');
+         $('.main__heading').addClass('main__heading--highlighted');
     });
-     
+
 	$('.btn-main').mouseleave(function(){
-		$('.main h1').removeClass('lightUp');
+		$('.main__heading').removeClass('main__heading--highlighted');
 	});
 
 });

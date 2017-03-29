@@ -150,9 +150,6 @@ html, body {
   transform: translateY(-40px);
 }
 
-.lightUp {
-  text-shadow: 0 0 7px;
-}
 
 .main.fadeIn {
   opacity: 1;
@@ -160,13 +157,17 @@ html, body {
 
 }
 
-.main h1 {
+.main__heading {
   color: rgba(255, 255, 255, 0.73);
   font-size: 100px;
   font-weight: 600;
   margin-bottom: 29px;
   margin-top: 0;
   text-transform: uppercase;
+}
+
+.main__heading.main__heading--highlighted {
+  text-shadow: 0 0 7px;
 }
 
 .btn-main {
