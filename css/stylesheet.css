@@ -228,24 +228,6 @@ html, body {
   width: 235px;
 }
 
-.supporting img {
-  height: 77px;
-}
-
-.supporting h2 {
-  font-size: 23px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.supporting p {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  margin-bottom: 40px;
-  padding: 0 50px;
-}
-
 .certificates {
   text-align: center;
   margin: 40px 0;
