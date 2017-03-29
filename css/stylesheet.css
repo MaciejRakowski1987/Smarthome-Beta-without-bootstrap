@@ -150,6 +150,10 @@ html, body {
   transform: translateY(-40px);
 }
 
+.lightUp {
+  text-shadow: 0 0 7px;
+}
+
 .main.fadeIn {
   opacity: 1;
   transform: translateY(0);
@@ -291,7 +295,7 @@ html, body {
   background-color: rgba(255, 255, 255, 0.28);
   border: 1px solid #000;
   color: #000;
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
 }
 
 .company__infoLine {
