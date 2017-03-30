@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link type="text/css" rel="stylesheet" href="plugins/lightgallery.css" /> <!-- gallery link -->
     <meta charset='utf-8'>
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
@@ -11,6 +12,14 @@
     <title>SmartHome</title>
   </head>
 <body>
+    <!-- jQuery version must be >= 1.8.0; -->
+    <script src="jquery.min.js"></script>
+    <script src="plugins/lightgallery.min.js"></script>
+    <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <!-- lightgallery plugins -->
+    <script src="plugins/lg-thumbnail.min.js"></script>
+    <script src="plugins/lg-fullscreen.min.js"></script>
 
   <nav class="header">
     <div class="flex-container">
@@ -79,7 +88,7 @@
   </section>
 
   <section class="certificates">
-    <div class="flex-container">
+    <div id="lightgallery" class="flex-container">
       <a class="certificates__img" target="_blank" href="img/img1.bmp">
         <img src="img/certi1.png"/>
       </a>

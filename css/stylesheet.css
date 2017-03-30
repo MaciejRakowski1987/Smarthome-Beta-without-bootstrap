@@ -84,12 +84,8 @@ html, body {
   display: block;
 }
 
-/*.jumbotron {
-  background: url(https://s-media-cache-ak0.pinimg.com/originals/f3/80/83/f38083002636c66204c60bfbdf78f2a2.jpg) center;
-  background-size: cover;
-  height: 300px;
-}
-*/
+
+
 .dropdown:hover {
   display: block;
 }
@@ -354,6 +350,16 @@ html, body {
 
 
 
+.gallery__title {
+  margin: 10px 0;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.gallery_img {
+  text-decoration: none;
+}
 
 .gallery {
   width: 984px;
@@ -378,35 +384,12 @@ html, body {
   height: 191px;
   transition: .1s transform;
   transform: translateZ(0);
+  opacity: 0.5;
 }
 
 .gallery > a:hover > img {
-transform: scale3d(1.1, 1.1, 1.1);
+opacity: 1.0;
+border-color: rgb(49, 164, 183);
 }
 
-/*.gallery > div:hover {
-  z-index: 1;
-}
-
-.gallery > div:hover > img {
-  transform: scale(1.7,1.7);
-  transition: .3s transform;
-}
-
-.cf:before, .cf:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-
-.cf:after {
-  clear: both;
-}*/
-
-.gallery__title {
-  margin: 10px 0;
-  font-size: 30px;
-  font-weight: 300;
-  text-align: center;
-}
 
