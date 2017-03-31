@@ -43,17 +43,17 @@ $(document).ready(function(){
 
 
 	function initializeMap() {
-    	var Location = new google.maps.LatLng(53.4387859, 14.562607299999968);
-        var Options = {
+    	var location = new google.maps.LatLng(53.4387859, 14.562607299999968);
+        var options = {
             center: Location,
             zoom: 16
         };
         var marker = new google.maps.Marker({
-            position: Location,
+            position: location,
             title: "Property Location"
         });
         var map = new google.maps.Map(document.getElementById("map1"),
-            Options);
+            options);
             marker.setMap(map);
         }
 $(document).ready(function(){
