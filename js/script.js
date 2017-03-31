@@ -42,7 +42,7 @@ $(document).ready(function(){
 });
 
 
-	function initializeMap1() {
+	function initializeMap() {
     	var Location = new google.maps.LatLng(53.4387859, 14.562607299999968);
         var Options = {
             center: Location,
@@ -57,7 +57,7 @@ $(document).ready(function(){
             marker.setMap(map);
         }
 $(document).ready(function(){
-	initializeMap1();
+	initializeMap();
 	});
 
 // $(document).ready(function() {
