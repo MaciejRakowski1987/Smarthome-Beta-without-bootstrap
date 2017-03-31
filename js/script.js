@@ -41,23 +41,24 @@ $(document).ready(function(){
 
 });
 
-jQuery(function ($) {
-	function init_map1() {
-    	var myLocation = new google.maps.LatLng(53.4387859, 14.562607299999968);
-        var mapOptions = {
-            center: myLocation,
+
+	function initializeMap1() {
+    	var Location = new google.maps.LatLng(53.4387859, 14.562607299999968);
+        var Options = {
+            center: Location,
             zoom: 16
         };
         var marker = new google.maps.Marker({
-            position: myLocation,
+            position: Location,
             title: "Property Location"
         });
         var map = new google.maps.Map(document.getElementById("map1"),
-            mapOptions);
+            Options);
             marker.setMap(map);
         }
-        init_map1();
-    });
+$(document).ready(function(){
+	initializeMap1();
+	});
 
 // $(document).ready(function() {
 //     $(".main").delay(2000).fadeIn(500);
