@@ -45,7 +45,7 @@ $(document).ready(function(){
 	function initializeMap() {
     	var location = new google.maps.LatLng(53.4387859, 14.562607299999968);
         var options = {
-            center: Location,
+            center: location,
             zoom: 16
         };
         var marker = new google.maps.Marker({
