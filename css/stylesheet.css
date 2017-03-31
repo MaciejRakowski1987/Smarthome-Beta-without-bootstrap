@@ -284,7 +284,7 @@ html, body {
   padding: 0px 5px;
 }
 
-.offer__header {
+.company__header {
   font-size: 20px;
   font-weight: 600;
   padding-top: 10px;
@@ -297,7 +297,7 @@ html, body {
 
 .contact {
   position: absolute;
-  top: calc(40% - (131px + 18px));
+  top: calc(40% - (200px + 50px));
   width: 100%;
 
 }
@@ -347,7 +347,14 @@ html, body {
   font-size: 20px;
 }
 
-
+.map {
+  min-width: 300px;
+  min-height: 300px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.28);
+  border-radius: 10px;
+}
 
 
 
