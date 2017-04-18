@@ -26,21 +26,10 @@ html, body {
 
 }
 
-.burgerBtn {
-  display: none;
 
 
 
-  @media only screen and (max-width: 768px) {
-    display: block;
-  }
 
-  // to jest to samo co:
-
-  @include respond-to(mobile) {
-    display: block;
-  }
-}
 
 .header {
   padding-top: 50px;
@@ -53,6 +42,10 @@ html, body {
   list-style-type: none;
   margin: 0;
   position: relative;
+}
+
+.hamburger {
+  display: none;
 }
 
 .header__nav-item {
@@ -152,6 +145,51 @@ html, body {
   height: 90%;
   width: 100%;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .header {
+    display: none;
+}
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.hamburger__nav {
+  display: none;
+}
+
+.hamburger:hover ~.hamburger__nav {
+  display: inline-grid;
+  height: 350px;
+  width: 90%;
+  border: solid 1px;
+  position: absolute;
+  right: 40px;
+  background-color: rgba(74, 183, 71, 0.68);
+  border-radius: 7px;
+  z-index: 1000;
+}
+
+.header__nav-item a {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+}
+
+
+/*  // to jest to samo co:*/
+
+  @include respond-to(mobile) {
+
+  }
+
+
 
 .main {
   position: relative;
