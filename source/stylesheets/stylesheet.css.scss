@@ -44,7 +44,7 @@ html, body {
   position: relative;
 }
 
-.hamburger {
+.mobileNav {
   display: none;
 }
 
@@ -146,7 +146,7 @@ html, body {
   width: 100%;
 }
 
-.hamburger__nav {
+.mobileNav__nav {
   display: none;
 }
 
@@ -411,14 +411,14 @@ html, body {
   display: none;
 }
 
-.hamburger {
+.mobileNav {
   display: inline-block;
   position: absolute;
   right: 10px;
   top: 10px;
 }
 
-.hamburger__logo {
+.mobileNav__logo {
   width: 50px;
   height: 50px;
 }
