@@ -56,3 +56,9 @@ $(document).ready(function(){
     initializeMap();
   }
 });
+
+$(document).ready(function(){
+    $(".mobileNav").click(function(){
+        $(".mobileNav__nav").slideToggle();
+    });
+});
