@@ -17,9 +17,11 @@ This will install Middleman, its dependencies and the command-line tools for usi
 
 The installation process will add one new command to your environment, with three useful features:
 
-`$ middleman init
-$ middleman server
-$ middleman build`
+`$ middleman init`
+`$ middleman server`
+`$ middleman build`
+
+For Additional information on how to run Mmiddleman visit https://middlemanapp.com/
 
 
 
