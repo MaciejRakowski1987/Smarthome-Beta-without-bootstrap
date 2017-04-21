@@ -6,7 +6,9 @@ html, body {
   padding: 0;
   min-height: 100%;
   height: 100%;
-  background: url("../images/background_wallpaper.jpg") center center, url("../images/background_wallpaper copy.jpg") center center;
+  background: 
+    url("../images/background__first.jpg") center center,
+    url("../images/background__second.jpg") center center;
   background-repeat: no-repeat, repeat-y;
   background-size: cover;
 }
