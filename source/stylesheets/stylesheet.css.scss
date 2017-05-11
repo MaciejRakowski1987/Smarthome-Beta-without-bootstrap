@@ -182,7 +182,7 @@ html, body {
   text-shadow: 0 0 7px;
 }
 
-.btn-main {
+.btn__main {
   background-color: rgba(74, 183, 71, 0.48);
   border-radius: 7px;
   color: #fff;
@@ -195,13 +195,13 @@ html, body {
   transition-duration: 0.8s;
 }
 
-.btn-main:hover {
+.btn__main:hover {
   background-color: rgb(142, 198, 63);
   color: white;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.btn-second {
+.btn__second {
   background-color: rgba(74, 183, 71, 0.48);
   border-radius: 7px;
   color: #fff;
@@ -216,7 +216,7 @@ html, body {
   text-transform: uppercase;
 }
 
-.btn-second:hover {
+.btn__second:hover {
   background-color: rgb(142, 198, 63);
   color: white;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -366,7 +366,7 @@ html, body {
   text-align: center;
 }
 
-.gallery_img {
+.gallery__img {
   text-decoration: none;
 }
 
@@ -381,7 +381,7 @@ html, body {
   padding: 5px;
 }
 
-.gallery_img img {
+.gallery__img img {
   display: inline-block;
   border: 3px solid #fff;
   border-radius: 3px;
@@ -392,7 +392,7 @@ html, body {
   opacity: 0.5;
 }
 
-.gallery_img:hover > img {
+.gallery__img:hover > img {
   opacity: 1.0;
   border-color: rgb(142, 198, 63);
 }
@@ -401,12 +401,12 @@ html, body {
 
 
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
   
 }
 
-/*  // to jest to samo co:*/
-
+  // to jest to samo co:
+*/
   @include respond-to(mobile) {
 
 .header {
@@ -462,7 +462,7 @@ html, body {
     margin-top: 0;
   }
 
-.btn-main {
+.btn__main {
   font-size: 3.2vw;
 }
 
