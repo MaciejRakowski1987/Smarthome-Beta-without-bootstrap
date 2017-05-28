@@ -12,11 +12,10 @@ html, body {
   background-repeat: no-repeat, repeat-y;
   background-size: cover;
 }
+
 a {
   color: rgb(142, 198, 63)
 }
-/*  background: url("../images/background_wallpaper.jpg") center center no-repeat;
-  background-size: cover;*/
 
 * {
   box-sizing: border-box;
@@ -310,7 +309,7 @@ li {
   width: 500px;
   margin: 15px auto;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.70);
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 10px;
 }
 
