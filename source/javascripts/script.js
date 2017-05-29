@@ -52,7 +52,7 @@ function initializeMap() {
 }
 
 $(document).ready(function(){
-  if (window.location.pathname === '/contact.html') {
+  if (window.location.pathname === ('/contact.html' || '/contact')) {
     initializeMap();
   }
 });
