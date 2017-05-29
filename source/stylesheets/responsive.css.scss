@@ -54,6 +54,10 @@
     }
   }
 
+  .mobileNav__img {
+    display: none;
+  }
+
   .transparentBox__column {
     float: left;
     width: 100%;
@@ -69,7 +73,7 @@
       margin-top: 0;
     }
 
-  .btn-main {
+  .btn__main {
     font-size: 3.2vw;
   }
 
@@ -78,7 +82,7 @@
     height:auto;
     background: 0px;
   }
-  .gallery_img img {
+  .gallery__img img {
     opacity: 1;
     width: 49%
   }
