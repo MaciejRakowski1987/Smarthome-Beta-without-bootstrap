@@ -87,6 +87,21 @@
     width: 49%
   }
 
+.company__info {
+  line-height: 1.35;
+  margin: 80px 0px 70px 0px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  color: #000;
+  padding: 0px 5px 5px 5px;
+}
+
+.company__infoLine {
+  font-size: 15px;
+  display: block;
+  padding: 0px 2px;
+}
+
   .contact__info {
   width: 100%;
   height: auto;
