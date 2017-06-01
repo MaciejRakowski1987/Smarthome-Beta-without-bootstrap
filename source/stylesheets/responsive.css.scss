@@ -22,25 +22,25 @@
   .mobileNav__nav {
     background-color: rgba(74, 183, 71, 0.85);
     display: none;
-    position: absolute;
-    width: 100%;
-    top: 0;
     left: 0;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    position: absolute;
     right: 0;
+    top: 0;
+    width: 100%;
     z-index: 10;
   }
 
   .mobileNav__nav-item {
-    font-size: 20px;
+    color: #fff;
     display: block;
-    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
     height: 70px;
     line-height: 70px;
-    font-weight: 500;
+    text-align: center;
     text-decoration: none;
-    color: #fff;
     width: 100%;
 
     &:focus, &:active {
@@ -60,8 +60,8 @@
 
   .transparentBox__column {
     float: left;
-    width: 100%;
     padding: 50px 0px 50px 0px;
+    width: 100%;
   }
 
   .main__heading {
@@ -78,9 +78,9 @@
   }
 
   .gallery__container {
-    width: 100%;
-    height:auto;
     background: 0px;
+    height:auto;
+    width: 100%;
   }
   .gallery__img img {
     opacity: 1;
@@ -88,23 +88,23 @@
   }
 
 .company__info {
-  line-height: 1.35;
-  margin: 80px 0px 70px 0px;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 10px;
   color: #000;
+  line-height: 1.35;
+  margin: 80px 0px 70px 0px;
   padding: 0px 5px 5px 5px;
 }
 
 .company__infoLine {
-  font-size: 15px;
   display: block;
+  font-size: 15px;
   padding: 0px 2px;
 }
 
   .contact__info {
-  width: 100%;
   height: auto;
+  width: 100%;
   }
 
   .contact__infoLine {
