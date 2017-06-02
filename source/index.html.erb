@@ -2,118 +2,124 @@
 title: 'SmartHome | Strona Główna'
 ---
 
-<nav class="header">
-  <div class="flex-container">
-    <ul class="header__nav">
-      <li class="header__nav-item">
-        <a class="header__logo" href="index.html">
-          <img src="images/logoNoText.png">
-        </a>
+<section class="wrapper">
+  <nav class="header">
+    <div class="flex-container">
+      <ul class="header__nav">
+        <li class="header__nav-item">
+          <a class="header__logo" href="index.html">
+            <img src="images/logoNoText.png">
+          </a>
+        </li>
+        <li class="header__nav-item header__nav-item--active">
+          <a href="index.html">Strona Główna</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="company.html">O firmie</a>
+        </li>
+        <li class="header__nav-item header__nav-item--dropdownButton">
+          <a href="#">Certyfikaty</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="contact.html">Referencje</a>
+        </li>
+        <li class="header__nav-item header__nav-item--contact">
+          <a href="contact.html">Kontakt</a>
+        </li>
+        <div class="dropdown">
+          <a class="dropdown__link" target="_blank" href="images/img1.jpg">De Dietrich</a>
+          <a class="dropdown__link" target="_blank" href="images/img2.jpg">Simp</a>
+          <a class="dropdown__link" target="_blank" href="images/img3.jpg">Zehnder</a>
+        </div>
+      </ul>
+    </div>
+  </nav>
+
+  <nav>
+    <a class="mobileNav" href="#">
+      <img class="mobileNav__logo" src="images/mobileNav.svg">
+    </a>
+    <ul class="mobileNav__nav">
+      <li class="mobileNav__nav-item mobileNav__nav-item--menu">
+        Menu
       </li>
-      <li class="header__nav-item header__nav-item--active">
-        <a href="index.html">Strona Główna</a>
+      <li>
+        <a class="mobileNav__nav-item" href="index.html">Strona Główna</a>
       </li>
-      <li class="header__nav-item">
-        <a href="company.html">O firmie</a>
+      <li>
+        <a class="mobileNav__nav-item" href="company.html">O firmie</a>
       </li>
-      <li class="header__nav-item header__nav-item--dropdownButton">
-        <a href="#">Certyfikaty</a>
+      <li id="lightgallery">
+        <a class="mobileNav__nav-item" href="images/img1.jpg">Certyfikaty</a>
+        <a class="mobileNav__img" href="images/img2.jpg"></a>
+        <a class="mobileNav__img" href="images/img3.jpg"></a>
       </li>
-      <li class="header__nav-item">
-        <a href="contact.html">Referencje</a>
+      <li>
+        <a class="mobileNav__nav-item" href="contact.html">Referencje</a>
       </li>
-      <li class="header__nav-item header__nav-item--contact">
-        <a href="contact.html">Kontakt</a>
+      <li>
+        <a class="mobileNav__nav-item" href="contact.html">Kontakt</a>
       </li>
-      <div class="dropdown">
-        <a class="dropdown__link" target="_blank" href="images/img1.jpg">De Dietrich</a>
-        <a class="dropdown__link" target="_blank" href="images/img2.jpg">Simp</a>
-        <a class="dropdown__link" target="_blank" href="images/img3.jpg">Zehnder</a>
-      </div>
     </ul>
-  </div>
-</nav>
+  </nav>
 
-<nav>
-  <a class="mobileNav" href="#">
-    <img class="mobileNav__logo" src="images/mobileNav.svg">
-  </a>
-  <ul class="mobileNav__nav">
-    <li class="mobileNav__nav-item mobileNav__nav-item--menu">
-      Menu
-    </li>
-    <li>
-      <a class="mobileNav__nav-item" href="index.html">Strona Główna</a>
-    </li>
-    <li>
-      <a class="mobileNav__nav-item" href="company.html">O firmie</a>
-    </li>
-    <li id="lightgallery">
-      <a class="mobileNav__nav-item" href="images/img1.jpg">Certyfikaty</a>
-      <a class="mobileNav__img" href="images/img2.jpg"></a>
-      <a class="mobileNav__img" href="images/img3.jpg"></a>
-    </li>
-    <li>
-      <a class="mobileNav__nav-item" href="contact.html">Referencje</a>
-    </li>
-    <li>
-      <a class="mobileNav__nav-item" href="contact.html">Kontakt</a>
-    </li>
-  </ul>
-</nav>
+  <section>
+    <div class="flex-container">
+      <div class="main">
+        <h1 class="main__heading">smarthome</h1>
+        <a class="btn__main" href="contact.html">skontaktuj się z nami</a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="mainContent">
+    <div class="flex-container">
+      <div class="transparentBox">
+        <div class="transparentBox__column">
+          <img src="images/galeriaIcon.png">
+          <h2>Galeria</h2>
+          <p>Kliknij aby zobaczyć galerie: </p>
+          <a class="btn__second" href="gallery.html">dowiedz się więcej</a>
+        </div>
 
-<section>
-  <div class="flex-container">
-    <div class="main">
-      <h1 class="main__heading">smarthome</h1>
-      <a class="btn__main" href="contact.html">skontaktuj się z nami</a>
+        <div class="transparentBox__column">
+          <img src="images/ofertaIcon.png">
+          <h2>Oferta</h2>
+            <p>Specjalizujemy się w: </p>
+          <a class="btn__second" href="offer.html">dowiedz się więcej</a>
+        </div>
+
+        <div class="transparentBox__column">
+          <img src="images/serwisIcon.png">
+          <h2>Serwis</h2>
+          <p>Autoryzowany serwis urządzeń:</p>
+          <a class="btn__second" href="service.html">dowiedz się więcej</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="certificates">
+    <div class="flex-container">
+      <a class="certificates__img" target="_blank" href="images/img1.jpg">
+        <img src="images/certi1.png"/>
+      </a>
+
+      <a class="certificates__img" target="_blank" href="images/img2.jpg">
+        <img src="images/certi2.png"/>
+      </a>
+
+      <a class="certificates__img" target="_blank" href="images/img3.jpg">
+        <img src="images/certi3.png"/>
+      </a>
+    </div>
+  </section>
+
+  <div class="footer__push"></div>
+
+  <div class="footer">
+    <div class="flex-container">
+      <p>&copy; Smart home 2017</p>
     </div>
   </div>
 </section>
-<section class="mainContent">
-  <div class="flex-container">
-    <div class="transparentBox">
-      <div class="transparentBox__column">
-        <img src="images/galeriaIcon.png">
-        <h2>Galeria</h2>
-        <p>Kliknij aby zobaczyć galerie: </p>
-        <a class="btn__second" href="gallery.html">dowiedz się więcej</a>
-      </div>
-
-      <div class="transparentBox__column">
-        <img src="images/ofertaIcon.png">
-        <h2>Oferta</h2>
-          <p>Specjalizujemy się w: </p>
-        <a class="btn__second" href="offer.html">dowiedz się więcej</a>
-      </div>
-
-      <div class="transparentBox__column">
-        <img src="images/serwisIcon.png">
-        <h2>Serwis</h2>
-        <p>Autoryzowany serwis urządzeń:</p>
-        <a class="btn__second" href="service.html">dowiedz się więcej</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="certificates">
-  <div class="flex-container">
-    <a class="certificates__img" target="_blank" href="images/img1.jpg">
-      <img src="images/certi1.png"/>
-    </a>
-
-    <a class="certificates__img" target="_blank" href="images/img2.jpg">
-      <img src="images/certi2.png"/>
-    </a>
-
-    <a class="certificates__img" target="_blank" href="images/img3.jpg">
-      <img src="images/certi3.png"/>
-    </a>
-  </div>
-</section>
-<div class="footer">
-  <div class="flex-container">
-    <p>&copy; Smart home 2017</p>
-  </div>
-</div>
