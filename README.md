@@ -1,4 +1,4 @@
-SMARTHOME
+SMARTHOME   LIVE LINK TO WEBSITE: http://smarthome.bitballoon.com/
 ###########
 
 
@@ -16,9 +16,8 @@ Once you have Ruby and RubyGems up and running, execute the following from the c
 This will install Middleman, its dependencies and the command-line tools for using Middleman.
 
 The installation process will add one new command to your environment, with three useful features:
-
+`$ middleman server` to run the code locally.
 `$ middleman init`
-`$ middleman server`
 `$ middleman build`
 
 For Additional information on how to run Mmiddleman visit https://middlemanapp.com/
